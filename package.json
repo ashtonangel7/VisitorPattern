@@ -1,0 +1,26 @@
+{
+  "name": "visitorpattern",
+  "version": "0.0.1",
+  "description": "Show Visitor Pattern Usage.",
+  "main": "./src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashtonangel7/VisitorPattern.git"
+  },
+  "keywords": [
+    "Visitor",
+    "Pattern"
+  ],
+  "author": "Ashton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashtonangel7/VisitorPattern/issues"
+  },
+  "homepage": "https://github.com/ashtonangel7/VisitorPattern#readme",
+  "dependencies": {
+    "eslint": "^4.19.1"
+  }
+}
