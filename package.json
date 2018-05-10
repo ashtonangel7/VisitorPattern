@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/ashtonangel7/VisitorPattern#readme",
   "dependencies": {
+    "@types/node": "^10.0.6",
     "eslint": "^4.19.1"
   }
 }
