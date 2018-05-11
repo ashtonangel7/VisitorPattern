@@ -22,7 +22,7 @@ class Broker {
 		return this._commision;
 	}
 
-	get SubBrokers() : Array<Broker> {
+	get SubBrokers(): Array<Broker> {
 		return this._subBrokers;
 	}
 
@@ -34,7 +34,7 @@ class Broker {
 		this._subBrokers.push(broker);
 	}
 
-	Accept(visitor: IVisitor<Broker>){ 
+	Accept(visitor: IVisitor<Broker>) {
 		visitor.Visit(this);
 	}
 }
