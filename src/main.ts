@@ -1,6 +1,7 @@
 import Client = require("./Client");
 import Broker = require("./Broker");
 import BrokerVisitor = require("./BrokerVisitor");
+import BrokerVisitor2 = require("./BrokerVisitor2");
 
 let rootBroker = new Broker("RootBroker", 10);
 let subBroker = new Broker("SubBroker", 5);
@@ -19,6 +20,9 @@ rootBroker.AddSubBroker(subBroker);
 
 let brokerVisitor = new BrokerVisitor();
 brokerVisitor.Visit(rootBroker);
+
+let brokerVisitor2 = new BrokerVisitor2();
+brokerVisitor2.Visit(rootBroker);
 
 
 

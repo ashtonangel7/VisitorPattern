@@ -1,7 +1,4 @@
 "use strict";
-/* interface IVisitor<T> {
-    Visit(objectToVisit: T): void;
-} */
 var BrokerVisitor = /** @class */ (function () {
     function BrokerVisitor() {
     }

@@ -1,5 +1,5 @@
 import Client = require("./Client");
-import BrokerVisitor = require("./BrokerVisitor");
+import { IVisitor } from "./IVisitor";
 
 class Broker {
 
@@ -34,7 +34,7 @@ class Broker {
 		this._subBrokers.push(broker);
 	}
 
-	Accept(visitor: BrokerVisitor){ 
+	Accept(visitor: IVisitor<Broker>){ 
 		visitor.Visit(this);
 	}
 }
